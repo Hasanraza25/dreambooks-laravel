@@ -1,0 +1,61 @@
+
+
+
+@use '../custom' as *;
+
+.choose{
+	width: 100%;
+}
+.label-1{
+	display: inline-block;
+	background-color: $yellow;
+	text-transform: uppercase;
+	padding: 10px 15px 0px 15px;
+	margin-bottom: 1.8rem;	
+	h6{
+		font-family: "Bebas Neue", sans-serif;
+		font-size: 22px;
+	}
+}
+
+.box{	
+	text-align: center;
+	img{
+  		width: 410px;
+		height: 270px;
+		margin-bottom: 1.5rem;
+	}
+	h3{
+		font-family: "Bebas Neue", sans-serif;
+		text-transform: uppercase;
+		color: $primary;
+		font-size: 2.4rem;
+		width: auto;
+	}
+	p{
+		font-family: "Montserrat", sans-serif;
+		font-size: 15px;
+		color: $primary;
+		text-align: center;
+		width: auto;
+		@include media-breakpoint-up(lg) {
+			width: 330px;
+		}
+	}
+	.btn{
+		background-color: $red;
+		border: 2px solid $red;
+		display: inline-block;
+		padding: 10px 25px;
+		color: $white;
+		font-family: "Alfa Slab One", serif;
+		border-radius: 0;
+		width: 160px;
+		&:hover{
+			color: $red;
+			background-color: $white;
+		}
+	}	
+}
+
+

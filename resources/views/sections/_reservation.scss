@@ -1,0 +1,92 @@
+
+
+@use '../custom' as *;
+
+.booking{
+	position: relative;
+	.top-burger{
+		position: absolute;
+		top: 0;
+		left: -110px;
+		max-width: 100%;
+
+	}
+	.heading-sec-5{
+		padding-top: 6rem;
+	}
+
+}
+
+.bottom-burger{
+	position: absolute;
+	right: 0;
+}
+
+form{
+	position: relative;
+	.bottle{
+		position: absolute;
+		top: 0;
+		left: -2rem;
+	}
+	 @include media-breakpoint-up(lg) {
+        padding: 0 12rem;
+    }
+	margin-top: 3rem;
+	input, button{
+		margin-top: 2rem;
+		z-index: 9999;
+	}
+	.my-inputs{
+		padding: 1rem;
+		font-family: "Bebas Neue", sans-serif;
+		text-transform: none;
+		color: #3d3d3d;	
+		border: 2px solid $gray-300;
+	}
+	.btn-sec-6{
+    	font-family: "Alfa Slab One", serif;
+		background-color: $red; 
+		color: $white;
+		font-size: 1.5rem;
+		border: 2px solid $red;
+		&:hover{
+			color: $red;
+			background-color: $white;
+		}
+	}
+}
+
+@media (min-width: 1100px) and (max-width: 1199px){
+	.top-burger{
+		margin-left: -2rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.top-burger{
+		width: 50%;
+		position: relative;
+		margin-left: -1.8rem;
+	}
+}
+
+@media (min-width: 680px) and (max-width: 767px){
+	.top-burger{
+		width: 50%;
+		margin-left: -3rem;
+	}
+}
+
+@media (min-width: 530px) and (max-width: 679px){
+	.top-burger{
+		width: 50%;
+		z-index: -1;
+	}
+}
+
+@media (max-width: 529px){
+	.top-burger{
+		margin-left: -1rem;
+	}
+}
