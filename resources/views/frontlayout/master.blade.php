@@ -66,7 +66,7 @@
 				<div class="mega-dropdown-wrapper">
 					<!-- Logo -->
 					<div class="logo">
-						<a href="/"><img src="/assets/images/logo-1.png" alt=""></a>
+						<a href="/" ><img src="/assets/images/logo.svg" alt="" style="width: 200px"></a>
 					</div>
 					<!-- Logo -->
 					<!-- Search bar -->
@@ -113,7 +113,7 @@
 		    		<!-- Footer Column -->
 		    		<div class="col-lg-4 col-sm-4">
 		    			<div class="footer-column logo-column">
-		    				<a href="index-1.html"><img src="/assets/images/logo-2.png" alt=""></a>
+		    				<a href="index-1.html"><img src="/assets/images/logo.svg" alt="" style="width: 200px"></a>
 		    				<p></p>
 		    				<ul class="address-list">
 		    					<li><i class="fa fa-home"></i>Off#91, Falak City Tower, Bolton Market Karachi.</li>

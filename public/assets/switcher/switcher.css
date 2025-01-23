@@ -69,7 +69,7 @@ float: left;
 }
 .styleswitch::after{ content: ""; height: 15px; width: 15px; background: #fff;
 position: absolute; right: 0; margin: 5px 0 0 0;}
-.styleswitch.color-1::after{ background: #ff851d;}
+.styleswitch.color-1::after{ background: #F24405;}
 .styleswitch.color-2::after{ background: #4fe158;}
 .styleswitch.color-3::after{ background: #0ec5e7;}
 ul.color_schemes li a:hover {

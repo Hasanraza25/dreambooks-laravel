@@ -53,7 +53,7 @@ a:hover,
 .footer-links li a:hover,
 .navigation ul li ul li .mega-dropdown a:hover,
 .s-product-hover .btn-1
-{ color: #ff851d;}
+{ color: #F24405;}
 
 
 /* Background Color */
@@ -78,7 +78,7 @@ a:hover,
 .product-cart-option li a:hover,
 .product-img .sale-bacth,
 .navigation ul li ul li a::before
-{ background: #ff851d;}
+{ background: #F24405;}
 
 /* Border Color */
 .social-icons ul li a:hover,
@@ -90,4 +90,4 @@ a:hover,
 .authors-filter ul li a.selected::before,
 .tags-list li a:hover,
 .add-cart-alert
-{ border-color: #ff851d;}
+{ border-color: #F24405;}

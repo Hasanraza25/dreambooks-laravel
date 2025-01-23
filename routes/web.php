@@ -95,9 +95,6 @@ use App\Http\Controllers\MainBookController;
         
     });
     
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/admin/profile', [HomeController::class, 'profile'])->name('profile');
